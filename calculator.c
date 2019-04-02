@@ -66,6 +66,7 @@ void raise(Error err)
 	char* msg;
 	switch(err)
 	{
+		printf("Test");
 		case divZero:
 			msg = "Divide by zero";
 			break;
