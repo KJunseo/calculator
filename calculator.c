@@ -16,6 +16,8 @@
 #define DEFAULTPRECISION 5
 #define FUNCTIONSEPARATOR "|"
 
+printf("Test");
+
 typedef enum
 {
 	addop,
@@ -66,7 +68,6 @@ void raise(Error err)
 	char* msg;
 	switch(err)
 	{
-		printf("Test");
 		case divZero:
 			msg = "Divide by zero";
 			break;
